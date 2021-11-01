@@ -1,10 +1,29 @@
 * {
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #dad5d5;
 }
 
 .header {
+  display: flex;
   height: 15vh;
-  background-color: #212121;
+  background-color: #F8BBD0;
+  border: 5px solid #ffffff;
+  border-radius: 2px;
+  color: #ffffff;
+  font-size: x-large;
+  box-shadow:0 0 20px #ffffff;
+  justify-content: flex-end;
+  padding-right: 2%;
+  flex-direction: column;
+  align-items:flex-end;
+}
+
+.footer-caption {
+  background-color: #FFFFFF;
+  margin: 0px 10px 0px 10px;
+  font-size: smaller;
+  text-align: left;
 }
 
 .body {
@@ -20,14 +39,96 @@
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
   height: 70vh;
-  margin-top: 15vh;
+  margin: 20px;
 }
 
 .box {
   font-family: sans-serif;
   font-size: 3em;
   text-align: center;
-  color: white;
-  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
-  background-color: #BDBDBD;
+  color: black;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  border: 2px solid white;
+  box-shadow: 2.5px 2.5px #888888;
 }
+
+.image {
+  height: 25vh;
+  margin: 4%;
+  border-radius: 2px;
+}
+
+.footer {
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: 2px solid white;
+  max-width: auto;
+  max-height: auto;
+}
+
+.gallery-heading {
+  margin-left: 2%;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  height: 20%;
+  background-color: #F8BBD0;
+}
+
+.user-login {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30%;
+  background-color: #F8BBD0;
+}
+
+.user-image {
+  height: 60%;
+  margin-right: 5px;
+  background-color: #F8BBD0;
+  margin-left: 5px;
+}
+
+.user-login-text {
+  background-color: #F8BBD0;
+  font-size: small;
+}
+
+.fit-icons {
+  height: 100%;
+  background-color: #F8BBD0;
+  margin-right: 55px;
+} 
+
+.crypto-link {
+  font-size: x-small;
+  margin: 10px 50px 10px 10px;
+  text-align: left;
+  padding: 5px;
+  background-color: rgba(235, 233, 233, 0.906);
+}
+
+.attachments {
+  background-color: #ffffff;
+  text-align: left;
+  margin: 10px 50px 1px 10px;
+  font-size: smaller;
+}
+
+.attachment-number {
+  color: rgba(0, 0, 255, 0.673);
+  background-color: #ffffff;
+  text-align: left;
+  margin: 1px 50px 10px 10px;
+}
+
+
