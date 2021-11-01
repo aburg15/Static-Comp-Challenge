@@ -5,7 +5,7 @@ This static comp challenge was assigned so that developers can fine tune their C
 
 ## Provided Static Comp
 
-![comp-image](./assets/comp.png)
+![comp-image](./assets/Comp.png)
 
 ## Final Version
 
